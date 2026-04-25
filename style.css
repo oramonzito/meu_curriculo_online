@@ -1,0 +1,45 @@
+/* Configurações básicas */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth; /* Suaviza a navegação por âncoras [cite: 41] */
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section {
+    padding: 100px 20px; /* Espaço para não ficar sob o menu fixo */
+    min-height: 80vh;
+}
+
+#contato form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+}
+
+input, textarea, button {
+    margin-bottom: 10px;
+    padding: 10px;
+}
